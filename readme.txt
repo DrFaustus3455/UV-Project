@@ -1,8 +1,9 @@
 #PROJECT-DESCRIPTION
 ~Basically i have a set-up of RO-Plant and in that setup there is UV-light connected
 ~UV-light stays open for far too long making its life-span shortened
-~Thats why there needs to be smart switch that opens and closes the light after some delay
-~It happens whenever water flows from the chamber killing bacterian from the water 
+~Thats why there needs to be a smart switch that opens and closes the light after some delay
+~It only happens whenever water flows from the chamber killing bacteria from the water
+~It closes when there is no movement in certain delay period 
 ~Also sustaining the life of the UV-Light   
 #FOR-SETUP
 1.Arduino Nano or Arduino Uno --> Nano is preferable because of place capacity

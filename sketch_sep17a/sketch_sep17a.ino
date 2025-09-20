@@ -16,10 +16,10 @@ void loop() {
 
   // Compare current pulse count to previous
   if (pulse > lastPulseCount) {
-    digitalWrite(sensorPinOut, HIGH); // Turn on relay
+    digitalWrite(sensorPinOut, LOW); // Turn on relay (LOW LEVEL Trigger)
     lastPulseCount = pulse;
   } else {
-    digitalWrite(sensorPinOut, LOW); // Turn off relay if no new pulses
+    digitalWrite(sensorPinOut, HIGH); // Turn off relay if no new pulses
   }
 
   // Print current pulse count

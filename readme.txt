@@ -34,7 +34,7 @@
 | LCD Pin | Connect To (GPIO) | Notes             |
 | ------- | ----------------- | ----------------- |
 | 1 (GND) | GND               | Ground            |
-| 2 (VCC) | **5V**            | LCD requires 5V   |
+| 2 (VCC) | **3V**            | LCD requires 5V   |
 | 3 (V0)  | Middle of 10k pot | Contrast control  |
 | 4 (RS)  | D1 (GPIO5)        | Register Select   |
 | 5 (RW)  | GND               | Always write mode |
